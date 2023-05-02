@@ -8,6 +8,15 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 3fc8acdd13e6c734bafef6554d6fdbcd
+  - enabled: 1
+    path: Assets/Scenes/CampingScene.unity
+    guid: 7d22ea658bb3a6744887acf20d261e53
+  - enabled: 1
+    path: Assets/Scenes/BourseScene.unity
+    guid: 00e621a6f210efa478ec0bc59334cb18
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: d79c9425eda959549b53f784c3650e03, type: 2}
     com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: 80c42f3d2896f3d40892f0f2b5f5bd76, type: 2}
