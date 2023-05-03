@@ -52,10 +52,12 @@ public GameObject ButtonFlaksRed;
 
         }
 
-public void isVisibleFlasksOrange() {
+
+
+        public void isVisibleFlasksOrange() {
 ButtonFlaksOrange.SetActive(true);
 ButtonFlaksRed.SetActive(false);
-}
+         }
 
 public void isVisibleFlasksRed() {
 

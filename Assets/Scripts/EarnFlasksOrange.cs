@@ -8,7 +8,6 @@ public class EarnFlasksOrange : MonoBehaviour
     private int flasksOrange;
     [SerializeField] private int flasksOrangeMultiplier;
     [SerializeField] private TMP_Text flasksOrangeText;
-    [SerializeField] private GameObject _clickFX;
     [SerializeField] private RectTransform _buttonPosition;
 
     void Start()
@@ -26,8 +25,8 @@ public class EarnFlasksOrange : MonoBehaviour
 
    public void EarnFlasks()
 {
-            Instantiate(_clickFX, _buttonPosition.position, Quaternion.identity);
-    flasksOrange += flasksOrangeMultiplier;
+      
+   flasksOrange += flasksOrangeMultiplier;
     PlayerPrefs.SetInt("flasksOrange", flasksOrange);
     flasksOrangeText.text = flasksOrange.ToString();
 }
