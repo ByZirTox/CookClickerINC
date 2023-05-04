@@ -181,7 +181,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 45789
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -360,7 +360,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flasksOrangeMultiplier: 1
   flasksOrangeText: {fileID: 1729278917}
-  _clickFX: {fileID: 0}
   _buttonPosition: {fileID: 1224861267}
 --- !u!1 &519420028
 GameObject:
@@ -1499,7 +1498,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flasksOrangeMultiplier: 1
   flasksOrangeText: {fileID: 146855034}
-  _clickFX: {fileID: 0}
   _buttonPosition: {fileID: 1795128272}
 --- !u!4 &1407336060
 Transform:
@@ -2680,7 +2678,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 45789
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
