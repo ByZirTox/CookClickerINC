@@ -2387,69 +2387,125 @@ extern void EarnFlasksRed_Start_m6E2D1EA130D135D870807682F15A7776E9381761 (void)
 extern void EarnFlasksRed_EarnFlasks_mA68A05B3B631E96C3F29087F2F00662BC04FEC99 (void);
 // 0x00000502 System.Void EarnFlasksRed::.ctor()
 extern void EarnFlasksRed__ctor_mD2D5828E71F005C85FB2047B6B280612FAC41F97 (void);
-// 0x00000503 System.Void MenuBurger::start()
+// 0x00000503 System.Void IsScript::Start()
+extern void IsScript_Start_m1177C64934820BB3F627D5F05AB7E3B26A3B298D (void);
+// 0x00000504 System.Void IsScript::OnEnable()
+extern void IsScript_OnEnable_m034B02DC520ACD57F682D895670198F38824895D (void);
+// 0x00000505 System.Void IsScript::OnApplicationPause(System.Boolean)
+extern void IsScript_OnApplicationPause_m77F7012D377A8DE285F00E42F502AD0E0556DFC5 (void);
+// 0x00000506 System.Void IsScript::ShowFullAd()
+extern void IsScript_ShowFullAd_m7AE199D8EB8F09E6947DD359A281D1C91CA98678 (void);
+// 0x00000507 System.Void IsScript::LoadBanner()
+extern void IsScript_LoadBanner_mB4D36C824100BA5C6C9B4A835988EC801ED723AA (void);
+// 0x00000508 System.Void IsScript::DestoryBanner()
+extern void IsScript_DestoryBanner_m7A321479A2AA3D23D80D43FE4BFD16B9FB2200EE (void);
+// 0x00000509 System.Void IsScript::SdkInitializationCompletedEvent()
+extern void IsScript_SdkInitializationCompletedEvent_m03DF6FDAAF27042CEDBF9A74F4E5E29CE68525F9 (void);
+// 0x0000050A System.Void IsScript::BannerOnAdLoadedEvent(IronSourceAdInfo)
+extern void IsScript_BannerOnAdLoadedEvent_m4E4F920DF84AF8526251F9A283231B365E319311 (void);
+// 0x0000050B System.Void IsScript::BannerOnAdLoadFailedEvent(IronSourceError)
+extern void IsScript_BannerOnAdLoadFailedEvent_m7F992F4CDDAF1C787F808AA5A3E35081CE124D50 (void);
+// 0x0000050C System.Void IsScript::BannerOnAdClickedEvent(IronSourceAdInfo)
+extern void IsScript_BannerOnAdClickedEvent_mBC766A806371116780B3EEB7E44A86C040B94A33 (void);
+// 0x0000050D System.Void IsScript::BannerOnAdScreenPresentedEvent(IronSourceAdInfo)
+extern void IsScript_BannerOnAdScreenPresentedEvent_m3B03FFD0BACFA11E83AD19D3BC4BB5BC63CC7CB9 (void);
+// 0x0000050E System.Void IsScript::BannerOnAdScreenDismissedEvent(IronSourceAdInfo)
+extern void IsScript_BannerOnAdScreenDismissedEvent_m75DFF9F41E0BFF56969E70FB424A462BA559DE6C (void);
+// 0x0000050F System.Void IsScript::BannerOnAdLeftApplicationEvent(IronSourceAdInfo)
+extern void IsScript_BannerOnAdLeftApplicationEvent_m6161410A5BF1FD7D7A618B8D2B55FA6551858111 (void);
+// 0x00000510 System.Void IsScript::RewardedVideoOnAdAvailable(IronSourceAdInfo)
+extern void IsScript_RewardedVideoOnAdAvailable_m15E19014A339D72DE54C46CEEA4D385E87C45506 (void);
+// 0x00000511 System.Void IsScript::RewardedVideoOnAdUnavailable()
+extern void IsScript_RewardedVideoOnAdUnavailable_mD60973EF12EFE2B4117E2CF1996D8CE02ECE8ED7 (void);
+// 0x00000512 System.Void IsScript::RewardedVideoOnAdOpenedEvent(IronSourceAdInfo)
+extern void IsScript_RewardedVideoOnAdOpenedEvent_mB6629BD48E51F935B56AB361E992BE812BCA1B5E (void);
+// 0x00000513 System.Void IsScript::RewardedVideoOnAdClosedEvent(IronSourceAdInfo)
+extern void IsScript_RewardedVideoOnAdClosedEvent_m617920F7B58DA819D6C6F51B84AB651959D204E7 (void);
+// 0x00000514 System.Void IsScript::RewardedVideoOnAdRewardedEvent(IronSourcePlacement,IronSourceAdInfo)
+extern void IsScript_RewardedVideoOnAdRewardedEvent_m4062805950CEAA07C0E542A2FF0BADAFD7384061 (void);
+// 0x00000515 System.Void IsScript::RewardedVideoOnAdShowFailedEvent(IronSourceError,IronSourceAdInfo)
+extern void IsScript_RewardedVideoOnAdShowFailedEvent_m1C7831C5C2326481D5A57C8041F6EF9E3456D002 (void);
+// 0x00000516 System.Void IsScript::RewardedVideoOnAdClickedEvent(IronSourcePlacement,IronSourceAdInfo)
+extern void IsScript_RewardedVideoOnAdClickedEvent_mD557BA998D145C32C0E68B6DBFF67F0D4611CC11 (void);
+// 0x00000517 System.Void IsScript::InterstitialOnAdReadyEvent(IronSourceAdInfo)
+extern void IsScript_InterstitialOnAdReadyEvent_m9CD9830279A74678121A3091D2867EA59CAECC65 (void);
+// 0x00000518 System.Void IsScript::InterstitialOnAdLoadFailed(IronSourceError)
+extern void IsScript_InterstitialOnAdLoadFailed_m74F745602B48AB1CD083E09E59D98C14B8DDD9A4 (void);
+// 0x00000519 System.Void IsScript::InterstitialOnAdOpenedEvent(IronSourceAdInfo)
+extern void IsScript_InterstitialOnAdOpenedEvent_m506BB530F1E6A4CB4A1073C1212E4B4A18FC2FCF (void);
+// 0x0000051A System.Void IsScript::InterstitialOnAdClickedEvent(IronSourceAdInfo)
+extern void IsScript_InterstitialOnAdClickedEvent_m890FFBDA166E31A9996DD8C20E00D5E626B30812 (void);
+// 0x0000051B System.Void IsScript::InterstitialOnAdShowFailedEvent(IronSourceError,IronSourceAdInfo)
+extern void IsScript_InterstitialOnAdShowFailedEvent_m40525A69BF5BD237A9E16210416EF7CF7D3DEFFD (void);
+// 0x0000051C System.Void IsScript::InterstitialOnAdClosedEvent(IronSourceAdInfo)
+extern void IsScript_InterstitialOnAdClosedEvent_mFBA65C482695BBB13D4AF9477933BD486C9B4CFC (void);
+// 0x0000051D System.Void IsScript::InterstitialOnAdShowSucceededEvent(IronSourceAdInfo)
+extern void IsScript_InterstitialOnAdShowSucceededEvent_m99D6D2AAB69A574A16DB16D4933C75331DF71402 (void);
+// 0x0000051E System.Void IsScript::.ctor()
+extern void IsScript__ctor_mAAC091BE8E8D3058478593673560D993116FE3C0 (void);
+// 0x0000051F System.Void MenuBurger::start()
 extern void MenuBurger_start_m2E6A9BBFEBB0B4F02D3B4B5BC69ACA14F14EBE5B (void);
-// 0x00000504 System.Void MenuBurger::isVisibleMenu()
+// 0x00000520 System.Void MenuBurger::isVisibleMenu()
 extern void MenuBurger_isVisibleMenu_mA5C3F57CE9C085EF95246B1584CCD3D6F85FAC6D (void);
-// 0x00000505 System.Void MenuBurger::isNotVisibleMenu()
+// 0x00000521 System.Void MenuBurger::isNotVisibleMenu()
 extern void MenuBurger_isNotVisibleMenu_m460BD7A5DFC278C70815C43BCE098D672E393C3C (void);
-// 0x00000506 System.Void MenuBurger::isVisibleFlasksOrange()
+// 0x00000522 System.Void MenuBurger::isVisibleFlasksOrange()
 extern void MenuBurger_isVisibleFlasksOrange_m7C678D398FB6BD19F95F97BB36F07873C85BBF10 (void);
-// 0x00000507 System.Void MenuBurger::isVisibleFlasksRed()
+// 0x00000523 System.Void MenuBurger::isVisibleFlasksRed()
 extern void MenuBurger_isVisibleFlasksRed_mD7A46F07B102DA7D0B0B911A1AF5B727B34EC7FC (void);
-// 0x00000508 System.Void MenuBurger::.ctor()
+// 0x00000524 System.Void MenuBurger::.ctor()
 extern void MenuBurger__ctor_m92A822E0D099C65C4295F9A7E801AC557EC138A8 (void);
-// 0x00000509 System.Void Readme::.ctor()
+// 0x00000525 System.Void Readme::.ctor()
 extern void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (void);
-// 0x0000050A System.Void Readme/Section::.ctor()
+// 0x00000526 System.Void Readme/Section::.ctor()
 extern void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (void);
-// 0x0000050B System.Object IronSourceJSON.Json::Deserialize(System.String)
+// 0x00000527 System.Object IronSourceJSON.Json::Deserialize(System.String)
 extern void Json_Deserialize_m8FE82986ED46C15633CE71CEA565F9436B6474A4 (void);
-// 0x0000050C System.String IronSourceJSON.Json::Serialize(System.Object)
+// 0x00000528 System.String IronSourceJSON.Json::Serialize(System.Object)
 extern void Json_Serialize_mC01A3EE8555C42F6DA02F3BFBF75C3E8F7D2342B (void);
-// 0x0000050D System.Void IronSourceJSON.Json/Parser::.ctor(System.String)
+// 0x00000529 System.Void IronSourceJSON.Json/Parser::.ctor(System.String)
 extern void Parser__ctor_mF6E2F8B708BC8DA7BDB80DAD1DF622355BF50536 (void);
-// 0x0000050E System.Object IronSourceJSON.Json/Parser::Parse(System.String)
+// 0x0000052A System.Object IronSourceJSON.Json/Parser::Parse(System.String)
 extern void Parser_Parse_m550577AC93E71023378D27EA1361383BA16504CE (void);
-// 0x0000050F System.Void IronSourceJSON.Json/Parser::Dispose()
+// 0x0000052B System.Void IronSourceJSON.Json/Parser::Dispose()
 extern void Parser_Dispose_mC88EEDDFE3CDB836F3AF49F721D3614158DED3A1 (void);
-// 0x00000510 System.Collections.Generic.Dictionary`2<System.String,System.Object> IronSourceJSON.Json/Parser::ParseObject()
+// 0x0000052C System.Collections.Generic.Dictionary`2<System.String,System.Object> IronSourceJSON.Json/Parser::ParseObject()
 extern void Parser_ParseObject_mF3509D092287719C782B830F60B511483B9E570B (void);
-// 0x00000511 System.Collections.Generic.List`1<System.Object> IronSourceJSON.Json/Parser::ParseArray()
+// 0x0000052D System.Collections.Generic.List`1<System.Object> IronSourceJSON.Json/Parser::ParseArray()
 extern void Parser_ParseArray_m3F732244DC13726B9DB99A9A335D4E8A9B31A575 (void);
-// 0x00000512 System.Object IronSourceJSON.Json/Parser::ParseValue()
+// 0x0000052E System.Object IronSourceJSON.Json/Parser::ParseValue()
 extern void Parser_ParseValue_m1BDF43E4AD2A64690AAFB6DBA800472F2A94272B (void);
-// 0x00000513 System.Object IronSourceJSON.Json/Parser::ParseByToken(IronSourceJSON.Json/Parser/TOKEN)
+// 0x0000052F System.Object IronSourceJSON.Json/Parser::ParseByToken(IronSourceJSON.Json/Parser/TOKEN)
 extern void Parser_ParseByToken_mF0830ED1965E050AE0195353B26ADB01C87E18F1 (void);
-// 0x00000514 System.String IronSourceJSON.Json/Parser::ParseString()
+// 0x00000530 System.String IronSourceJSON.Json/Parser::ParseString()
 extern void Parser_ParseString_m4913878D0B3878423C25644610F690615E7724C2 (void);
-// 0x00000515 System.Object IronSourceJSON.Json/Parser::ParseNumber()
+// 0x00000531 System.Object IronSourceJSON.Json/Parser::ParseNumber()
 extern void Parser_ParseNumber_mDE9009CD828B692F4E5683708FEC450BF88D465F (void);
-// 0x00000516 System.Void IronSourceJSON.Json/Parser::EatWhitespace()
+// 0x00000532 System.Void IronSourceJSON.Json/Parser::EatWhitespace()
 extern void Parser_EatWhitespace_m3D91DD801FB915B39B1A5B133CB159DA4A6D2CF1 (void);
-// 0x00000517 System.Char IronSourceJSON.Json/Parser::get_PeekChar()
+// 0x00000533 System.Char IronSourceJSON.Json/Parser::get_PeekChar()
 extern void Parser_get_PeekChar_m631004C7D090E106B50F8CDFA62CB254B8C5553A (void);
-// 0x00000518 System.Char IronSourceJSON.Json/Parser::get_NextChar()
+// 0x00000534 System.Char IronSourceJSON.Json/Parser::get_NextChar()
 extern void Parser_get_NextChar_m93C329D94339309A4654DF11D6C06D4D1ABBDBDF (void);
-// 0x00000519 System.String IronSourceJSON.Json/Parser::get_NextWord()
+// 0x00000535 System.String IronSourceJSON.Json/Parser::get_NextWord()
 extern void Parser_get_NextWord_m0FDD048038CF96F085F527E30FB94893225C2725 (void);
-// 0x0000051A IronSourceJSON.Json/Parser/TOKEN IronSourceJSON.Json/Parser::get_NextToken()
+// 0x00000536 IronSourceJSON.Json/Parser/TOKEN IronSourceJSON.Json/Parser::get_NextToken()
 extern void Parser_get_NextToken_m2CF12E0515A498D7CD696E6065BB8F5401182EB4 (void);
-// 0x0000051B System.Void IronSourceJSON.Json/Serializer::.ctor()
+// 0x00000537 System.Void IronSourceJSON.Json/Serializer::.ctor()
 extern void Serializer__ctor_m75AAE9DA26CF48B1C8608E850915E74AC135BD0F (void);
-// 0x0000051C System.String IronSourceJSON.Json/Serializer::Serialize(System.Object)
+// 0x00000538 System.String IronSourceJSON.Json/Serializer::Serialize(System.Object)
 extern void Serializer_Serialize_m074256116E009BD598CCC76D76661DFADCA49C09 (void);
-// 0x0000051D System.Void IronSourceJSON.Json/Serializer::SerializeValue(System.Object)
+// 0x00000539 System.Void IronSourceJSON.Json/Serializer::SerializeValue(System.Object)
 extern void Serializer_SerializeValue_m402A1869F9E3A33F621B305ED4C2322D6C1B16A7 (void);
-// 0x0000051E System.Void IronSourceJSON.Json/Serializer::SerializeObject(System.Collections.IDictionary)
+// 0x0000053A System.Void IronSourceJSON.Json/Serializer::SerializeObject(System.Collections.IDictionary)
 extern void Serializer_SerializeObject_m76665B596B2DA337CFBAFD5374CBC170E29AE684 (void);
-// 0x0000051F System.Void IronSourceJSON.Json/Serializer::SerializeArray(System.Collections.IList)
+// 0x0000053B System.Void IronSourceJSON.Json/Serializer::SerializeArray(System.Collections.IList)
 extern void Serializer_SerializeArray_mCC39C55C650C20A797385B9B3737F6DF08ECB30D (void);
-// 0x00000520 System.Void IronSourceJSON.Json/Serializer::SerializeString(System.String)
+// 0x0000053C System.Void IronSourceJSON.Json/Serializer::SerializeString(System.String)
 extern void Serializer_SerializeString_m5FB343C30BD22AB9DE403EB8135FF8C9A58DBF4C (void);
-// 0x00000521 System.Void IronSourceJSON.Json/Serializer::SerializeOther(System.Object)
+// 0x0000053D System.Void IronSourceJSON.Json/Serializer::SerializeOther(System.Object)
 extern void Serializer_SerializeOther_m1ADF12DA620629116FC15C5FF3E60019B8409AA0 (void);
-static Il2CppMethodPointer s_methodPointers[1313] = 
+static Il2CppMethodPointer s_methodPointers[1341] = 
 {
 	IronSourceDemoScript_Start_m77BBBF6AE3F0DF2428C73C5D2D5F45FDF4EFB8BC,
 	IronSourceDemoScript_OnEnable_m8946831B21535385ACF7C8E15325DF8608E47D34,
@@ -3733,6 +3789,34 @@ static Il2CppMethodPointer s_methodPointers[1313] =
 	EarnFlasksRed_Start_m6E2D1EA130D135D870807682F15A7776E9381761,
 	EarnFlasksRed_EarnFlasks_mA68A05B3B631E96C3F29087F2F00662BC04FEC99,
 	EarnFlasksRed__ctor_mD2D5828E71F005C85FB2047B6B280612FAC41F97,
+	IsScript_Start_m1177C64934820BB3F627D5F05AB7E3B26A3B298D,
+	IsScript_OnEnable_m034B02DC520ACD57F682D895670198F38824895D,
+	IsScript_OnApplicationPause_m77F7012D377A8DE285F00E42F502AD0E0556DFC5,
+	IsScript_ShowFullAd_m7AE199D8EB8F09E6947DD359A281D1C91CA98678,
+	IsScript_LoadBanner_mB4D36C824100BA5C6C9B4A835988EC801ED723AA,
+	IsScript_DestoryBanner_m7A321479A2AA3D23D80D43FE4BFD16B9FB2200EE,
+	IsScript_SdkInitializationCompletedEvent_m03DF6FDAAF27042CEDBF9A74F4E5E29CE68525F9,
+	IsScript_BannerOnAdLoadedEvent_m4E4F920DF84AF8526251F9A283231B365E319311,
+	IsScript_BannerOnAdLoadFailedEvent_m7F992F4CDDAF1C787F808AA5A3E35081CE124D50,
+	IsScript_BannerOnAdClickedEvent_mBC766A806371116780B3EEB7E44A86C040B94A33,
+	IsScript_BannerOnAdScreenPresentedEvent_m3B03FFD0BACFA11E83AD19D3BC4BB5BC63CC7CB9,
+	IsScript_BannerOnAdScreenDismissedEvent_m75DFF9F41E0BFF56969E70FB424A462BA559DE6C,
+	IsScript_BannerOnAdLeftApplicationEvent_m6161410A5BF1FD7D7A618B8D2B55FA6551858111,
+	IsScript_RewardedVideoOnAdAvailable_m15E19014A339D72DE54C46CEEA4D385E87C45506,
+	IsScript_RewardedVideoOnAdUnavailable_mD60973EF12EFE2B4117E2CF1996D8CE02ECE8ED7,
+	IsScript_RewardedVideoOnAdOpenedEvent_mB6629BD48E51F935B56AB361E992BE812BCA1B5E,
+	IsScript_RewardedVideoOnAdClosedEvent_m617920F7B58DA819D6C6F51B84AB651959D204E7,
+	IsScript_RewardedVideoOnAdRewardedEvent_m4062805950CEAA07C0E542A2FF0BADAFD7384061,
+	IsScript_RewardedVideoOnAdShowFailedEvent_m1C7831C5C2326481D5A57C8041F6EF9E3456D002,
+	IsScript_RewardedVideoOnAdClickedEvent_mD557BA998D145C32C0E68B6DBFF67F0D4611CC11,
+	IsScript_InterstitialOnAdReadyEvent_m9CD9830279A74678121A3091D2867EA59CAECC65,
+	IsScript_InterstitialOnAdLoadFailed_m74F745602B48AB1CD083E09E59D98C14B8DDD9A4,
+	IsScript_InterstitialOnAdOpenedEvent_m506BB530F1E6A4CB4A1073C1212E4B4A18FC2FCF,
+	IsScript_InterstitialOnAdClickedEvent_m890FFBDA166E31A9996DD8C20E00D5E626B30812,
+	IsScript_InterstitialOnAdShowFailedEvent_m40525A69BF5BD237A9E16210416EF7CF7D3DEFFD,
+	IsScript_InterstitialOnAdClosedEvent_mFBA65C482695BBB13D4AF9477933BD486C9B4CFC,
+	IsScript_InterstitialOnAdShowSucceededEvent_m99D6D2AAB69A574A16DB16D4933C75331DF71402,
+	IsScript__ctor_mAAC091BE8E8D3058478593673560D993116FE3C0,
 	MenuBurger_start_m2E6A9BBFEBB0B4F02D3B4B5BC69ACA14F14EBE5B,
 	MenuBurger_isVisibleMenu_mA5C3F57CE9C085EF95246B1584CCD3D6F85FAC6D,
 	MenuBurger_isNotVisibleMenu_m460BD7A5DFC278C70815C43BCE098D672E393C3C,
@@ -3765,7 +3849,7 @@ static Il2CppMethodPointer s_methodPointers[1313] =
 	Serializer_SerializeString_m5FB343C30BD22AB9DE403EB8135FF8C9A58DBF4C,
 	Serializer_SerializeOther_m1ADF12DA620629116FC15C5FF3E60019B8409AA0,
 };
-static const int32_t s_InvokerIndices[1313] = 
+static const int32_t s_InvokerIndices[1341] = 
 {
 	4223,
 	4223,
@@ -5051,6 +5135,34 @@ static const int32_t s_InvokerIndices[1313] =
 	4223,
 	4223,
 	4223,
+	3353,
+	4223,
+	4223,
+	4223,
+	4223,
+	3427,
+	3427,
+	3427,
+	3427,
+	3427,
+	3427,
+	3427,
+	4223,
+	3427,
+	3427,
+	1931,
+	1931,
+	1931,
+	3427,
+	3427,
+	3427,
+	3427,
+	1931,
+	3427,
+	3427,
+	4223,
+	4223,
+	4223,
 	4223,
 	4223,
 	4223,
@@ -5085,7 +5197,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	1313,
+	1341,
 	s_methodPointers,
 	0,
 	NULL,
