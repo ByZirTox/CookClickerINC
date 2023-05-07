@@ -60,7 +60,7 @@ public class IsScript : MonoBehaviour
     public void ShowFullAd()
     {
        
-        if (IronSource.Agent.isInterstitialReady())
+        if (IronSource.Agent.isInterstitialReady())   
         {
             GameObject.Find("AdsOrange250").GetComponent<Button>().interactable = true;
             IronSource.Agent.showInterstitial();
@@ -122,7 +122,7 @@ public class IsScript : MonoBehaviour
     //For Rewarder
 
     /************* RewardedVideo AdInfo Delegates *************/
-    // Indicates that there’s an available ad.
+    // Indicates that thereï¿½s an available ad.
     // The adInfo object includes information about the ad that was loaded successfully
     // This replaces the RewardedVideoAvailabilityChangedEvent(true) event
     void RewardedVideoOnAdAvailable(IronSourceAdInfo adInfo)
@@ -161,7 +161,7 @@ public class IsScript : MonoBehaviour
     }
     // Invoked when the video ad was clicked.
     // This callback is not supported by all networks, and we recommend using it only if
-    // it’s supported by all networks you included in your build.
+    // itï¿½s supported by all networks you included in your build.
     void RewardedVideoOnAdClickedEvent(IronSourcePlacement placement, IronSourceAdInfo adInfo)
     {
     }
