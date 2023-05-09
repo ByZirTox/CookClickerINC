@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class TorLoad : MonoBehaviour
 {
-
     public GameObject SwitchHome;
     public GameObject RunComputer;
     public GameObject TorLogo;
@@ -12,7 +11,10 @@ public class TorLoad : MonoBehaviour
     public GameObject Point1;
     public GameObject Point2;
     public GameObject Point3;
-  
+    public GameObject Parameter;
+    public GameObject Bourse;
+    public GameObject Market;
+    public GameObject BitcoinIcon;
   
 private void FindObjects()
 {
@@ -23,16 +25,16 @@ private void FindObjects()
     Point1 = GameObject.Find("Point1");
     Point2 = GameObject.Find("Point2");
     Point3 = GameObject.Find("Point3");
+    Parameter = GameObject.Find("Parameter");
+    Bourse = GameObject.Find("Bourse");
+    Market = GameObject.Find("Market");
+    BitcoinIcon = GameObject.Find("BitcoinIcon");
     
 }
 
-
-    void Start()
-    {
-
-        FindObjects();    
-       
-         TorLogo.SetActive(false);
+private void InitObjects()
+{
+        TorLogo.SetActive(false);
         
         TorLoadLogo.SetActive(false);
         
@@ -41,8 +43,21 @@ private void FindObjects()
         Point2.SetActive(false);
         
         Point3.SetActive(false);
+
+        Parameter.SetActive(false);
         
-      
+        Bourse.SetActive(false);
+        
+        Market.SetActive(false);
+        
+        BitcoinIcon.SetActive(false);
+}
+
+
+    void Start()
+    {
+        FindObjects();
+        InitObjects();
     }
 
      
@@ -60,11 +75,18 @@ private void FindObjects()
         Point3.SetActive(true);
         yield return new WaitForSeconds(0.5f);
         TorLogo.SetActive(true);
+         yield return new WaitForSeconds(0.5f);
         TorLoadLogo.SetActive(false);
         Point1.SetActive(false);
         Point2.SetActive(false);
         Point3.SetActive(false);
-      }
+        Parameter.SetActive(true);
+        Bourse.SetActive(true);
+        Market.SetActive(true);
+        BitcoinIcon.SetActive(true);
+     
+
+    }
 
 public void LoadComputer(){
     StartCoroutine(LoadComputerCoroutine());
